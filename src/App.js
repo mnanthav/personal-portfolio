@@ -5,13 +5,31 @@
 /*------------------------------------------
    Description:
 =========================================================================*/
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavBar from './NavBar';
+import routes from './routes';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>App.js</h1>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <div>
+          <Routes>
+            {routes.map((route, index) => (
+              <Route 
+                key={index}
+                path={route.path}
+                element={route.component}
+                exact={route.exact}
+              />
+            ))}
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 

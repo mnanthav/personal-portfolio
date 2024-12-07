@@ -6,11 +6,19 @@
    Description:
 =========================================================================*/
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
 
     return (
-        <h1>Home</h1>
+        <Container>
+            <Row>
+                <Col>
+                    <p>+ picture of me</p>
+                </Col>
+
+            </Row>
+        </Container>
     );
 };
 
