@@ -1,0 +1,51 @@
+/* NavBar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #385D65 !important; /* Retro dark teal background */
+    border-bottom: 3px solid #9C4035; /* Retro red border */
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-family: 'Press Start 2P', cursive;
+    color: #F5F5DC !important; /* Beige color for the brand text */
+    font-size: 1.2rem;
+}
+
+.navbar-brand:hover {
+    color: #C88630 !important; /* Gold color on hover */
+}
+
+/* Navbar links */
+.nav-link {
+    font-family: 'Nunito', sans-serif;
+    color: #F5F5DC !important; /* Beige for links */
+    font-size: 1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #C88630 !important; /* Gold color on hover */
+}
+
+/* Active link */
+.nav-link.active {
+    font-weight: bold;
+    color: #9C4035 !important; /* Retro red for active link */
+}
+
+/* Navbar toggle button */
+.navbar-toggler {
+    border-color: #C88630 !important; /* Gold toggle button border */
+}
+
+.navbar-toggler-icon {
+    background-color: #F5F5DC !important; /* Beige toggle icon */
+}
+
+/* Sticky navbar shadow effect */
+.navbar.sticky-top {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}

@@ -12,17 +12,25 @@ import avatar from '../assets/profile-pic.jpg';
 function Home() {
 
     return (
-        <Container className="mt-5">
-            <Row className="justify-content-center text-center">
+        <Container className="mt-5" style={{ textAlign: 'center'}}>
+            <Row>
                 <Col>
-                    <h1>Welcome to i-mya-gination!</h1>
+                    <h1>Welcome to I-mya-gination!</h1>
                 </Col>
             </Row>
             <Row className="align-items-center">
                 <Col md={4}>
                     {/* Professional headshot/avatar */}
-                    <Image src={avatar} roundedCircle fluid />
-                    <p>
+                    <Image 
+                        src={avatar} 
+                        roundedCircle 
+                        fluid 
+                        style={{
+                            border: '5px solid #C88630',
+                            marginBottom: '20px'
+                        }}
+                    />
+                    <p style={{ fontStyle: 'italic' }}>
                         ** Please don't judge me ): Replacing this with a professional headshot aa soon as I get one!! **
                     </p>
                 </Col>
@@ -49,12 +57,3 @@ function Home() {
 };
 
 export default Home;
-/*
-                        <br />
-                        <br />                        
-                        Whether it's solving problems, building projects, 
-                        or coming up with bad jokes, I'm here to make it fun (and functional). 
-                        <br />
-                        <br />
-                        Stick around; you might just find something inspiring!
- */

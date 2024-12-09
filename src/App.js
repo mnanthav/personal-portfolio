@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavigationBar from './components/NavBar';
 import routes from './routes';
 import Footer from './components/Footer';
-import './App.css';
+import './styles.css';
 
 function App() {
   return (

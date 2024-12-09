@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F5F5DC; /* Beige background */
+    color: #3A5C43; /* Default text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Press Start 2P', cursive;
+    color: #9C4035; /* Header color */
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: #385D65; /* Paragraph color */
+}
+
+a {
+    color: #C88630;
+    text-decoration: none;
+}
+a:hover {
+    color: #9C4035;
+    text-decoration: underline;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #385D65;
+    color: #F5F5DC;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #3A5C43;
+}
+
+/* Homepage */
+
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    color: #9C4035; 
+}
+
+.home-container p {
+    margin-top: 20px;
+    color: #385D65;
+    font-size: 1.2rem;
+}
+
+.home-container img {
+    border: 5px solid #C88630;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* About Page */
+.about-container {
+    padding: 50px 20px;
+}
+
+.about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #9C4035;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    color: #385D65;
+    margin-bottom: 20px;
+}
+
+.about-container button {
+    margin-top: 20px;
+}
+
+/* Contact Page */
+
+.contact-container {
+    padding: 50px 20px;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #9C4035;
+    text-align: center;
+}
+
+.contact-container form {
+    background-color: #F5F5DC;
+    padding: 20px;
+    border: 2px solid #3A5C43;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    border: 2px solid #9C4035;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #F5F5DC;
+    color: #3A5C43;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    outline: none;
+    border-color: #385D65;
+    box-shadow: 0 0 5px #385D65;
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3A5C43;
+    color: #F5F5DC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #C88630;
+}
+
+footer a:hover {
+    color: #9C4035;
+}

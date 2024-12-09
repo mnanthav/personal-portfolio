@@ -53,7 +53,7 @@ function About() {
                         life and bring a touch of ease to everyday challenges.
                     </p>
                     {/* PDF of resume: href="/resume.pdf" */}
-                    <Button variant="primary" download>
+                    <Button download style={{ marginTop: '20px' }}>
                         Download My Resume
                     </Button>
                 </Col>
@@ -63,30 +63,3 @@ function About() {
 };
 
 export default About;
-/*
-Place your resume file (resume.pdf) in the public/ folder of your project. 
-This ensures it’s accessible at the path /resume.pdf.
-skills -
-                        <br />
-                        One of my proudest achievements was developing Code(ing) Buddy,
-One of my proudest achievements was developing [insert project or feature], 
-where I optimized [a specific process] to reduce runtime by [percentage or seconds]. 
-It was a perfect blend of problem-solving and efficiency, and it solidified my love for 
-coding challenges.
-
-interests - 
-My hobbies often feed directly into my projects. For example, my love for colony 
-simulation games inspired a small side project where I created a resource management 
-tool to track in-game stats. It’s these intersections between coding and creativity 
-that fuel my passion for technology.
-
-future goals - 
-In the future, I hope to work on projects that merge technology and creativity to 
-solve real-world problems. Whether it’s creating tools for efficiency or designing 
-systems that spark joy, my ultimate goal is to make a lasting impact.
-
-personal motto - 
-My motto: \"The best code isn’t just functional—it’s beautiful, efficient, and a 
-little fun too.\"
-
-*/
