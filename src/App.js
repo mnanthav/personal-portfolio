@@ -7,7 +7,7 @@
 =========================================================================*/
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavigationBar from './NavBar';
 import routes from './routes';
 import './App.css';
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavBar />
+        <NavigationBar />
         <div>
           <Routes>
             {routes.map((route, index) => (

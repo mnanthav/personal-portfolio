@@ -9,7 +9,7 @@ import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-function NavBar() {
+function NavigationBar() {
     
     return (
         <Navbar
@@ -49,4 +49,4 @@ function NavBar() {
     );
 };
 
-export default NavBar;
+export default NavigationBar;
