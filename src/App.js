@@ -7,12 +7,35 @@
 =========================================================================*/
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavigationBar from './NavBar';
+import NavigationBar from './components/NavBar';
 import routes from './routes';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
+    <div>
+      <Router>
+        <NavigationBar />
+        <Routes>
+          {routes.map((route, index) => (
+            <Route 
+              key={index}
+              path={route.path}
+              element={route.component}
+              exact={route.exact}
+            />
+          ))}
+        </Routes>
+      </Router>
+      <Footer />
+    </div>
+
+  );
+}
+
+export default App;
+/*
     <Router>
       <div>
         <NavigationBar />
@@ -30,11 +53,6 @@ function App() {
         </div>
       </div>
     </Router>
-  );
-}
-
-export default App;
-/*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

@@ -5,21 +5,21 @@
 /*------------------------------------------
    Description:
 =========================================================================*/
-import HomePage from './components/Home';
-import AboutPage from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Skills from './pages/Skills';
+import Contact from './pages/Contact';
 
 const routes = [
    {
       path: '/',
-      component: <HomePage />,
+      component: <Home />,
       exact: true
    }, 
    {
       path: '/about',
-      component: <AboutPage />
+      component: <About />
    }, 
    {
       path: '/projects',

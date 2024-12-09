@@ -1,5 +1,5 @@
 //=========================================================================
-// File: .../src/components/Home/index.js
+// File: .../src/pages/Home.js
 // Programmer: Mya Nanthavongdouangsy
 //=========================================================================
 /*------------------------------------------
@@ -7,9 +7,9 @@
 =========================================================================*/
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import avatar from '../../assets/profile-pic.jpg'; 
+import avatar from '../assets/profile-pic.jpg'; 
 
-function HomePage() {
+function Home() {
 
     return (
         <Container className="mt-5">
@@ -48,7 +48,7 @@ function HomePage() {
     );
 };
 
-export default HomePage;
+export default Home;
 /*
                         <br />
                         <br />                        
